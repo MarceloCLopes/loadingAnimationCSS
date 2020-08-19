@@ -13,3 +13,20 @@ body {
   align-items: center;
   background: linear-gradient(120deg, #d4fc79, #96e6a1);
 }
+
+.parent {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent div {
+  width: 0;
+  height: 0;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
