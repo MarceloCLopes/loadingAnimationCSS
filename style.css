@@ -34,3 +34,11 @@ body {
 .first {
   animation: 1s grow ease-out alternate infinite;
 }
+
+.second {
+  animation: 1s grow ease-out alternate infinite;
+}
+
+.third {
+  animation: 1s grow ease-out alternate infinite;
+}
