@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #d4fc79, #96e6a1);
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 .parent {
@@ -29,4 +29,8 @@ body {
   background: #ffffff;
   border-radius: 50%;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.first {
+  animation: 1s grow ease-out alternate infinite;
 }
